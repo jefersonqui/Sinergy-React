@@ -133,7 +133,9 @@ body::-webkit-scrollbar-thumb {
     flex: 0 0 20%;
 }
 
-.header__list--right {}
+/* .header__list--right {
+
+} */
 
 .header__button {
 
@@ -251,7 +253,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .section__banner--p {
-    color: #d6e9ff;
+    color: var(--color1);
 }
 
 .caja__tejido {
@@ -303,5 +305,122 @@ body::-webkit-scrollbar-thumb {
 
 .contenido {
     padding: 8px 15px;
+
+}
+
+/* SECCION #2 */
+
+
+
+
+
+.section__jobs {
+    max-width: 100%;
+
+    padding: 0px;
+    display: block;
+    margin: 0px 40px;
+
+
+}
+
+.section__jobs--title {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 0px 40px;
+    width: 100%;
+    font-size: "Georgia", "Helvetica Neue";
+    white-space: nowrap;
+    color: var(--color2);
+}
+
+.section__jobs--container {
+    display: flex;
+    list-style: 1.3;
+}
+
+.jobs__TabList {
+    position: relative;
+
+    width: max-content;
+    padding: 0px 80px 0px 0px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.jobs__StyledTabButton-sc {
+    text-decoration: none;
+    border: none;
+    text-decoration-skip-ink: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 42px;
+    padding: 0px 20px 2px;
+    border-left: 1px solid var(--color-lines);
+    background-color: transparent;
+    color: var(--color1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.jobs__TabPanel {
+    margin-left: 20px;
+}
+
+.jobs__StylePanel-sc {
+    padding: 10px 5px;
+}
+
+
+.Qghxr {
+    margin-bottom: 2px;
+    line-height: 1.3;
+    font-weight: 300;
+    margin: 0px 0px 10px;
+
+
+}
+
+.Qghxr ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+
+}
+
+.Qghxr ul li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.Qghxr ul li::before {
+    content: "⠞";
+    /*⋮, ⊕,∎,⊷⠞,▶,⦿*/
+    position: absolute;
+    left: 0px;
+    color: var(--color2);
+
+}
+
+::before {
+    box-sizing: inherit;
+}
+
+.tab-0:hover {
+    background-color: var(--color-lines);
+    position: relative;
+    overflow: hidden;
+    border: none;
+    
 
 }
