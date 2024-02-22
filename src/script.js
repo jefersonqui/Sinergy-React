@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const tabButtons = document.querySelectorAll('.jobs__StyledTabButton-sc');
     const tabContents = document.querySelectorAll('.jobs__StylePanel-sc');
- 
+    
   
     // Agregar la clase 'active' al primer botón de pestaña y al primer contenido del panel al cargar la página
     tabButtons[0].classList.add('active');
@@ -20,4 +20,8 @@ document.addEventListener('DOMContentLoaded', function() {
         tabContents[index].classList.add('active');
       });
     });
+
+    
   });
+
+ 
